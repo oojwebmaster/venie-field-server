@@ -1,0 +1,14 @@
+{
+  "name": "venie-field-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "VENIE FIELD 멀티플레이 중계 서버",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "ws": "^8.18.0" }
+}
